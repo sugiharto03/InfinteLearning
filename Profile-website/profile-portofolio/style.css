@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f6f9;
+}
+h1,
+h2 {
+  font-family: "DM Serif Display", serif;
+}
+p,
+h3,
+h4,
+h5,
+h6,
+nav,
+li,
+footer {
+  font-family: "DM Sans", sans-serif;
+}
+/* navbar styling */
+nav,
+.nav-item {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+}
+.nav-item,
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-item li {
+  margin-right: 50px;
+}
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* showcase styling */
+.showcase {
+  background-color: black;
+  padding-top: 120px;
+  text-align: center;
+  line-height: 1.2;
+  width: 100%;
+  height: 500px;
+}
+.showcase h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 70px;
+}
+.showcase h2 {
+  color: #f9fd52;
+  font-weight: 300;
+  font-size: 5em;
+  padding-bottom: 25px;
+}
+.showcase p {
+  width: 40%;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.5;
+  font-size: 17px;
+  color: white;
+}
+
+/* introduction styling */
+.introduction {
+  margin: 50px auto;
+  width: 80%;
+}
+.img-intro {
+  width: 100%;
+  text-align: center;
+}
+.img-intro img {
+  border-radius: 50%;
+  border: 10px solid #f9fd52;
+  margin: auto;
+}
+.img-intro h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 20px 20px;
+}
+.img-intro p {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 17px;
+  color: #4b527e;
+}
+
+/* about styling */
+.about {
+  width: 100%;
+  background-color: black;
+  height: auto;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.about h2,
+.contact h2 {
+  color: #f1f6f9;
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+.about .hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.about .hobbies .item-hobbies {
+  background-color: #f1f6f9;
+  border: 10px solid #f9fd52;
+  border-radius: 5%;
+  min-height: 200px;
+}
+.about .hobbies .item-hobbies img {
+  padding: 20px 40px;
+}
+.about .hobbies .item-hobbies h3 {
+  line-height: 5;
+  color: black;
+}
+
+/* contact page styling */
+.contact {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-top: 70px;
+}
+.contact h2 {
+  color: black;
+}
+.contact .contact-part img {
+  border-radius: 2%;
+}
+.contact .contact-part {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contact-item .wrap ul {
+  display: block;
+  text-align: left;
+}
+.contact-item .wrap li {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2;
+  margin-bottom: 7px;
+}
+.contact-item .wrap li span {
+  padding-left: 15px;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+}
